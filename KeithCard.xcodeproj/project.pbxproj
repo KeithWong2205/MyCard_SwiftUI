@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53433CB828BDFA00003C369C /* KeithCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53433CB728BDFA00003C369C /* KeithCardApp.swift */; };
+		53433CBA28BDFA00003C369C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53433CB928BDFA00003C369C /* ContentView.swift */; };
+		53433CBC28BDFA02003C369C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53433CBB28BDFA02003C369C /* Assets.xcassets */; };
+		53433CBF28BDFA02003C369C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53433CBE28BDFA02003C369C /* Preview Assets.xcassets */; };
+		53433CC928BDFA02003C369C /* KeithCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53433CC828BDFA02003C369C /* KeithCardTests.swift */; };
+		53433CD328BDFA02003C369C /* KeithCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53433CD228BDFA02003C369C /* KeithCardUITests.swift */; };
+		53433CD528BDFA02003C369C /* KeithCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53433CD428BDFA02003C369C /* KeithCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53433CC528BDFA02003C369C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53433CAC28BDFA00003C369C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53433CB328BDFA00003C369C;
+			remoteInfo = KeithCard;
+		};
+		53433CCF28BDFA02003C369C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53433CAC28BDFA00003C369C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53433CB328BDFA00003C369C;
+			remoteInfo = KeithCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53433CB428BDFA00003C369C /* KeithCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeithCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53433CB728BDFA00003C369C /* KeithCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeithCardApp.swift; sourceTree = "<group>"; };
+		53433CB928BDFA00003C369C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53433CBB28BDFA02003C369C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53433CBE28BDFA02003C369C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53433CC428BDFA02003C369C /* KeithCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeithCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53433CC828BDFA02003C369C /* KeithCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeithCardTests.swift; sourceTree = "<group>"; };
+		53433CCE28BDFA02003C369C /* KeithCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeithCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53433CD228BDFA02003C369C /* KeithCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeithCardUITests.swift; sourceTree = "<group>"; };
+		53433CD428BDFA02003C369C /* KeithCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeithCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53433CB128BDFA00003C369C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53433CC128BDFA02003C369C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53433CCB28BDFA02003C369C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53433CAB28BDFA00003C369C = {
+			isa = PBXGroup;
+			children = (
+				53433CB628BDFA00003C369C /* KeithCard */,
+				53433CC728BDFA02003C369C /* KeithCardTests */,
+				53433CD128BDFA02003C369C /* KeithCardUITests */,
+				53433CB528BDFA00003C369C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53433CB528BDFA00003C369C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53433CB428BDFA00003C369C /* KeithCard.app */,
+				53433CC428BDFA02003C369C /* KeithCardTests.xctest */,
+				53433CCE28BDFA02003C369C /* KeithCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53433CB628BDFA00003C369C /* KeithCard */ = {
+			isa = PBXGroup;
+			children = (
+				53433CB728BDFA00003C369C /* KeithCardApp.swift */,
+				53433CB928BDFA00003C369C /* ContentView.swift */,
+				53433CBB28BDFA02003C369C /* Assets.xcassets */,
+				53433CBD28BDFA02003C369C /* Preview Content */,
+			);
+			path = KeithCard;
+			sourceTree = "<group>";
+		};
+		53433CBD28BDFA02003C369C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53433CBE28BDFA02003C369C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53433CC728BDFA02003C369C /* KeithCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				53433CC828BDFA02003C369C /* KeithCardTests.swift */,
+			);
+			path = KeithCardTests;
+			sourceTree = "<group>";
+		};
+		53433CD128BDFA02003C369C /* KeithCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53433CD228BDFA02003C369C /* KeithCardUITests.swift */,
+				53433CD428BDFA02003C369C /* KeithCardUITestsLaunchTests.swift */,
+			);
+			path = KeithCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53433CB328BDFA00003C369C /* KeithCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53433CD828BDFA02003C369C /* Build configuration list for PBXNativeTarget "KeithCard" */;
+			buildPhases = (
+				53433CB028BDFA00003C369C /* Sources */,
+				53433CB128BDFA00003C369C /* Frameworks */,
+				53433CB228BDFA00003C369C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeithCard;
+			productName = KeithCard;
+			productReference = 53433CB428BDFA00003C369C /* KeithCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53433CC328BDFA02003C369C /* KeithCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53433CDB28BDFA02003C369C /* Build configuration list for PBXNativeTarget "KeithCardTests" */;
+			buildPhases = (
+				53433CC028BDFA02003C369C /* Sources */,
+				53433CC128BDFA02003C369C /* Frameworks */,
+				53433CC228BDFA02003C369C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53433CC628BDFA02003C369C /* PBXTargetDependency */,
+			);
+			name = KeithCardTests;
+			productName = KeithCardTests;
+			productReference = 53433CC428BDFA02003C369C /* KeithCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53433CCD28BDFA02003C369C /* KeithCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53433CDE28BDFA02003C369C /* Build configuration list for PBXNativeTarget "KeithCardUITests" */;
+			buildPhases = (
+				53433CCA28BDFA02003C369C /* Sources */,
+				53433CCB28BDFA02003C369C /* Frameworks */,
+				53433CCC28BDFA02003C369C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53433CD028BDFA02003C369C /* PBXTargetDependency */,
+			);
+			name = KeithCardUITests;
+			productName = KeithCardUITests;
+			productReference = 53433CCE28BDFA02003C369C /* KeithCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53433CAC28BDFA00003C369C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					53433CB328BDFA00003C369C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					53433CC328BDFA02003C369C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 53433CB328BDFA00003C369C;
+					};
+					53433CCD28BDFA02003C369C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 53433CB328BDFA00003C369C;
+					};
+				};
+			};
+			buildConfigurationList = 53433CAF28BDFA00003C369C /* Build configuration list for PBXProject "KeithCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53433CAB28BDFA00003C369C;
+			productRefGroup = 53433CB528BDFA00003C369C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53433CB328BDFA00003C369C /* KeithCard */,
+				53433CC328BDFA02003C369C /* KeithCardTests */,
+				53433CCD28BDFA02003C369C /* KeithCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53433CB228BDFA00003C369C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53433CBF28BDFA02003C369C /* Preview Assets.xcassets in Resources */,
+				53433CBC28BDFA02003C369C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53433CC228BDFA02003C369C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53433CCC28BDFA02003C369C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53433CB028BDFA00003C369C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53433CBA28BDFA00003C369C /* ContentView.swift in Sources */,
+				53433CB828BDFA00003C369C /* KeithCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53433CC028BDFA02003C369C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53433CC928BDFA02003C369C /* KeithCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53433CCA28BDFA02003C369C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53433CD528BDFA02003C369C /* KeithCardUITestsLaunchTests.swift in Sources */,
+				53433CD328BDFA02003C369C /* KeithCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53433CC628BDFA02003C369C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53433CB328BDFA00003C369C /* KeithCard */;
+			targetProxy = 53433CC528BDFA02003C369C /* PBXContainerItemProxy */;
+		};
+		53433CD028BDFA02003C369C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53433CB328BDFA00003C369C /* KeithCard */;
+			targetProxy = 53433CCF28BDFA02003C369C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53433CD628BDFA02003C369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53433CD728BDFA02003C369C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53433CD928BDFA02003C369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeithCard/Preview Content\"";
+				DEVELOPMENT_TEAM = WRBUV5T87Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.KeithCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53433CDA28BDFA02003C369C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeithCard/Preview Content\"";
+				DEVELOPMENT_TEAM = WRBUV5T87Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.KeithCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53433CDC28BDFA02003C369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRBUV5T87Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.KeithCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeithCard.app/KeithCard";
+			};
+			name = Debug;
+		};
+		53433CDD28BDFA02003C369C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRBUV5T87Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.KeithCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeithCard.app/KeithCard";
+			};
+			name = Release;
+		};
+		53433CDF28BDFA02003C369C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRBUV5T87Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.KeithCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeithCard;
+			};
+			name = Debug;
+		};
+		53433CE028BDFA02003C369C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRBUV5T87Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.KeithCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeithCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53433CAF28BDFA00003C369C /* Build configuration list for PBXProject "KeithCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53433CD628BDFA02003C369C /* Debug */,
+				53433CD728BDFA02003C369C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53433CD828BDFA02003C369C /* Build configuration list for PBXNativeTarget "KeithCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53433CD928BDFA02003C369C /* Debug */,
+				53433CDA28BDFA02003C369C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53433CDB28BDFA02003C369C /* Build configuration list for PBXNativeTarget "KeithCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53433CDC28BDFA02003C369C /* Debug */,
+				53433CDD28BDFA02003C369C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53433CDE28BDFA02003C369C /* Build configuration list for PBXNativeTarget "KeithCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53433CDF28BDFA02003C369C /* Debug */,
+				53433CE028BDFA02003C369C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53433CAC28BDFA00003C369C /* Project object */;
+}
